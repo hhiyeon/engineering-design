@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Blog Page</title>
+
+        <style>
+            #header {
+                background-color: pink;
+                width: 100%;
+                height: 20%;
+                text-align: center;
+                padding : 1px 0px 1px 0px;
+            }
+            #nav {
+                width: 25%;
+                background-color: orange;
+                height: 300px;
+                float: left;
+                padding : 0px 0px 0px 20px;
+            }
+            #content {
+                width: 70%;
+                background-color: yellow;
+                height: 300px;
+                float: right;
+                padding : 0px 0px 0px 20px;
+            }
+            #footer {
+                width: 100%;
+                background-color: purple;
+                height: 40px;
+                clear: both;
+                text-align: center;
+                color: white;
+                padding : 15px 0px 0px 0px;
+            }
+            a:link { color: rgb(58, 74, 254) } 
+            a:visited { color:purple; } 
+            body { font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif; }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header"><h1>My Blog Page</h1></div>
+            <div id="nav"><h3>Links</h3>
+                <ul>
+                    <li><a href="https://www.w3.org" target="_blank">W3C</a></li>
+                    <li><a href="https://developer.mozilla.org/ko/docs/Mozilla" target="_blank">MOZILLA</a></li>
+                    <li><a href="https://htmldog.com" target="_blank">HTML Dogs</a></li>
+                                    <p><img src="image.png" width="100" height="100" /></p>
+                <p>홍길동</p>
+                </ul>
+            </div>
+            <div id="content">
+                <h3>Semantic Tags</h3>
+                <p>시멘틱 요소(Semantic elements)들은 브라우저에게 요소의 의미나 목적을 명확하게 알려주는 요소이다.</p>
+                <h3>div와 span</h3>
+                <p>div는 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다. span 요소는 인라인 요소로서 텍스트를 위한 컨테이너로 사용할 수 있다.</p>
+            </div>
+            <div id="footer">Copyright (c) 2013 Hong</div>
+            </div>
+    </body>
+</html>
